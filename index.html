@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title> 
+       
+</head>
+<body>
+    <Fieldset>
+
+    <h1>FORMS</h1>
+    <!-- Name Field -->  
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter name" id="name" name="user name" autocomplete="true"><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter email" id="email" name="email" autocomplete="true"><br>
+        <label for="number">Phone:</label>
+        <input type="tel" placeholder="Write 10 Digit " id="number" name="number" pattern="[0-9]{10}" autocomplete="true" required><br>
+        <label for="pass">Password: </label>
+        <input type="password" placeholder="Enter password" id="pass" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br>
+        <label for="language">Language</label>
+        <input type="radio"  name="language" value="React" id="react">
+        <label for="react">React</label>
+        <input type="radio"  name="language" value="Angular" id="angular">
+        <label for="angular">Angular</label>
+        <input type="radio"  name="language" value="Vue" id="vue">
+        <label for="vue">Vue</label><br>
+        <input type="checkbox" name="Course1" id="MERN" value="MERN">
+        <label for="MERN">MERN</label>
+        <input type="checkbox" name="Course2" id="MEAN" value="MEAN">
+        <label for="MEAN">MEAN</label>
+        <input type="checkbox" name="Course3" id="MEVN" value="MEVN">
+        <label for="MEVN">MERN</label><br>
+        <select name="Field" id="drop" required>
+            <option disabled selected>Default Value</option>
+            <option value="ForntEnd">ForntEnd Developer</option>
+            <option value="Backend">Backend developer</option>
+            <option value="Full Stack">Full Stack Developer</option>
+        </select><br><br>
+        <label for="write"><textarea name="Write here" id="Write" cols="15" rows="10" placeholder="write to here"></textarea></label><br>
+
+        </Fieldset>
+         
+         
+ <button type="submit">Submit</button>
+
+ <h1>TABLES</h1>
+ <a href="./index3.html">Click Here</a>
+</form>
+    
+</body>
+</html>
